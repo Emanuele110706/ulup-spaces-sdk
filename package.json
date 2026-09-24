@@ -1,0 +1,38 @@
+{
+  "name": "@ulupstudio/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript SDK for the UluP Spaces API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/types.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "regen-types": "openapi-typescript https://www.ulupspaces.com/openapi.yaml -o src/types.ts"
+  },
+  "keywords": [
+    "ulup",
+    "ulup-spaces",
+    "api",
+    "sdk"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emanuele110706/ulup-spaces-sdk.git"
+  },
+  "homepage": "https://ulupstudio.com",
+  "dependencies": {
+    "openapi-fetch": "^0.17.0"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.0.0",
+    "typescript": "^5.5.0"
+  },
+  "author": "Emanuele Giovanni Cerbone",
+  "bugs": {
+    "url": "https://github.com/Emanuele110706/ulup-spaces-sdk/issues"
+  }
+}
