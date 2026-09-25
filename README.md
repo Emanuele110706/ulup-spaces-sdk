@@ -1,6 +1,9 @@
 # @ulupstudio/sdk
 
-Official TypeScript SDK for the [UluP Spaces API](https://www.ulupspaces.com/openapi.yaml).
+[![npm version](https://img.shields.io/npm/v/@ulupstudio/sdk.svg)](https://www.npmjs.com/package/@ulupstudio/sdk)
+[![license](https://img.shields.io/npm/l/@ulupstudio/sdk.svg)](https://github.com/Emanuele110706/ulup-spaces-sdk/blob/main/LICENSE)
+
+Official TypeScript SDK for the [UluP Spaces API](https://www.ulupspaces.com/openapi.yaml). Full docs and API key generation: [ulupstudio.com/developers](https://ulupstudio.com/developers).
 
 ## Install
 
@@ -58,6 +61,12 @@ try {
 npm run regen-types
 npm run build
 ```
+
+## Links
+
+- [Full API docs & get an API key](https://ulupstudio.com/developers)
+- [OpenAPI spec](https://www.ulupspaces.com/openapi.yaml)
+- [Report an issue](https://github.com/Emanuele110706/ulup-spaces-sdk/issues)
 
 ## License
 
